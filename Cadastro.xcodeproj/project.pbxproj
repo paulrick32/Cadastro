@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1BE89DE22F724F0009E50E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BE89DD22F724F0009E50E5 /* AppDelegate.swift */; };
+		F1BE89E022F724F0009E50E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BE89DF22F724F0009E50E5 /* ViewController.swift */; };
+		F1BE89E322F724F0009E50E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1BE89E122F724F0009E50E5 /* Main.storyboard */; };
+		F1BE89E522F724F2009E50E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1BE89E422F724F2009E50E5 /* Assets.xcassets */; };
+		F1BE89E822F724F2009E50E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1BE89E622F724F2009E50E5 /* LaunchScreen.storyboard */; };
+		F1BE89F322F724F2009E50E5 /* CadastroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BE89F222F724F2009E50E5 /* CadastroTests.swift */; };
+		F1BE89FE22F724F2009E50E5 /* CadastroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BE89FD22F724F2009E50E5 /* CadastroUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1BE89EF22F724F2009E50E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1BE89D222F724F0009E50E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1BE89D922F724F0009E50E5;
+			remoteInfo = Cadastro;
+		};
+		F1BE89FA22F724F2009E50E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1BE89D222F724F0009E50E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1BE89D922F724F0009E50E5;
+			remoteInfo = Cadastro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1BE89DA22F724F0009E50E5 /* Cadastro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cadastro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1BE89DD22F724F0009E50E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1BE89DF22F724F0009E50E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1BE89E222F724F0009E50E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1BE89E422F724F2009E50E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1BE89E722F724F2009E50E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1BE89E922F724F2009E50E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1BE89EE22F724F2009E50E5 /* CadastroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CadastroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1BE89F222F724F2009E50E5 /* CadastroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroTests.swift; sourceTree = "<group>"; };
+		F1BE89F422F724F2009E50E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1BE89F922F724F2009E50E5 /* CadastroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CadastroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1BE89FD22F724F2009E50E5 /* CadastroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroUITests.swift; sourceTree = "<group>"; };
+		F1BE89FF22F724F2009E50E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1BE89D722F724F0009E50E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1BE89EB22F724F2009E50E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1BE89F622F724F2009E50E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1BE89D122F724F0009E50E5 = {
+			isa = PBXGroup;
+			children = (
+				F1BE89DC22F724F0009E50E5 /* Cadastro */,
+				F1BE89F122F724F2009E50E5 /* CadastroTests */,
+				F1BE89FC22F724F2009E50E5 /* CadastroUITests */,
+				F1BE89DB22F724F0009E50E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1BE89DB22F724F0009E50E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1BE89DA22F724F0009E50E5 /* Cadastro.app */,
+				F1BE89EE22F724F2009E50E5 /* CadastroTests.xctest */,
+				F1BE89F922F724F2009E50E5 /* CadastroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1BE89DC22F724F0009E50E5 /* Cadastro */ = {
+			isa = PBXGroup;
+			children = (
+				F1BE89DD22F724F0009E50E5 /* AppDelegate.swift */,
+				F1BE89DF22F724F0009E50E5 /* ViewController.swift */,
+				F1BE89E122F724F0009E50E5 /* Main.storyboard */,
+				F1BE89E422F724F2009E50E5 /* Assets.xcassets */,
+				F1BE89E622F724F2009E50E5 /* LaunchScreen.storyboard */,
+				F1BE89E922F724F2009E50E5 /* Info.plist */,
+			);
+			path = Cadastro;
+			sourceTree = "<group>";
+		};
+		F1BE89F122F724F2009E50E5 /* CadastroTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1BE89F222F724F2009E50E5 /* CadastroTests.swift */,
+				F1BE89F422F724F2009E50E5 /* Info.plist */,
+			);
+			path = CadastroTests;
+			sourceTree = "<group>";
+		};
+		F1BE89FC22F724F2009E50E5 /* CadastroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1BE89FD22F724F2009E50E5 /* CadastroUITests.swift */,
+				F1BE89FF22F724F2009E50E5 /* Info.plist */,
+			);
+			path = CadastroUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1BE89D922F724F0009E50E5 /* Cadastro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1BE8A0222F724F2009E50E5 /* Build configuration list for PBXNativeTarget "Cadastro" */;
+			buildPhases = (
+				F1BE89D622F724F0009E50E5 /* Sources */,
+				F1BE89D722F724F0009E50E5 /* Frameworks */,
+				F1BE89D822F724F0009E50E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cadastro;
+			productName = Cadastro;
+			productReference = F1BE89DA22F724F0009E50E5 /* Cadastro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1BE89ED22F724F2009E50E5 /* CadastroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1BE8A0522F724F2009E50E5 /* Build configuration list for PBXNativeTarget "CadastroTests" */;
+			buildPhases = (
+				F1BE89EA22F724F2009E50E5 /* Sources */,
+				F1BE89EB22F724F2009E50E5 /* Frameworks */,
+				F1BE89EC22F724F2009E50E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1BE89F022F724F2009E50E5 /* PBXTargetDependency */,
+			);
+			name = CadastroTests;
+			productName = CadastroTests;
+			productReference = F1BE89EE22F724F2009E50E5 /* CadastroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1BE89F822F724F2009E50E5 /* CadastroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1BE8A0822F724F2009E50E5 /* Build configuration list for PBXNativeTarget "CadastroUITests" */;
+			buildPhases = (
+				F1BE89F522F724F2009E50E5 /* Sources */,
+				F1BE89F622F724F2009E50E5 /* Frameworks */,
+				F1BE89F722F724F2009E50E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1BE89FB22F724F2009E50E5 /* PBXTargetDependency */,
+			);
+			name = CadastroUITests;
+			productName = CadastroUITests;
+			productReference = F1BE89F922F724F2009E50E5 /* CadastroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1BE89D222F724F0009E50E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Paulinho;
+				TargetAttributes = {
+					F1BE89D922F724F0009E50E5 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					F1BE89ED22F724F2009E50E5 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = F1BE89D922F724F0009E50E5;
+					};
+					F1BE89F822F724F2009E50E5 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = F1BE89D922F724F0009E50E5;
+					};
+				};
+			};
+			buildConfigurationList = F1BE89D522F724F0009E50E5 /* Build configuration list for PBXProject "Cadastro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1BE89D122F724F0009E50E5;
+			productRefGroup = F1BE89DB22F724F0009E50E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1BE89D922F724F0009E50E5 /* Cadastro */,
+				F1BE89ED22F724F2009E50E5 /* CadastroTests */,
+				F1BE89F822F724F2009E50E5 /* CadastroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1BE89D822F724F0009E50E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1BE89E822F724F2009E50E5 /* LaunchScreen.storyboard in Resources */,
+				F1BE89E522F724F2009E50E5 /* Assets.xcassets in Resources */,
+				F1BE89E322F724F0009E50E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1BE89EC22F724F2009E50E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1BE89F722F724F2009E50E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1BE89D622F724F0009E50E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1BE89E022F724F0009E50E5 /* ViewController.swift in Sources */,
+				F1BE89DE22F724F0009E50E5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1BE89EA22F724F2009E50E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1BE89F322F724F2009E50E5 /* CadastroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1BE89F522F724F2009E50E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1BE89FE22F724F2009E50E5 /* CadastroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1BE89F022F724F2009E50E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1BE89D922F724F0009E50E5 /* Cadastro */;
+			targetProxy = F1BE89EF22F724F2009E50E5 /* PBXContainerItemProxy */;
+		};
+		F1BE89FB22F724F2009E50E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1BE89D922F724F0009E50E5 /* Cadastro */;
+			targetProxy = F1BE89FA22F724F2009E50E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1BE89E122F724F0009E50E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1BE89E222F724F0009E50E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1BE89E622F724F2009E50E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1BE89E722F724F2009E50E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1BE8A0022F724F2009E50E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1BE8A0122F724F2009E50E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1BE8A0322F724F2009E50E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9MC62PA295;
+				INFOPLIST_FILE = Cadastro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.paulopereira.Cadastro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1BE8A0422F724F2009E50E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9MC62PA295;
+				INFOPLIST_FILE = Cadastro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.paulopereira.Cadastro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F1BE8A0622F724F2009E50E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9MC62PA295;
+				INFOPLIST_FILE = CadastroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.paulopereira.CadastroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cadastro.app/Cadastro";
+			};
+			name = Debug;
+		};
+		F1BE8A0722F724F2009E50E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9MC62PA295;
+				INFOPLIST_FILE = CadastroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.paulopereira.CadastroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cadastro.app/Cadastro";
+			};
+			name = Release;
+		};
+		F1BE8A0922F724F2009E50E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9MC62PA295;
+				INFOPLIST_FILE = CadastroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.paulopereira.CadastroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cadastro;
+			};
+			name = Debug;
+		};
+		F1BE8A0A22F724F2009E50E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9MC62PA295;
+				INFOPLIST_FILE = CadastroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.paulopereira.CadastroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cadastro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1BE89D522F724F0009E50E5 /* Build configuration list for PBXProject "Cadastro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1BE8A0022F724F2009E50E5 /* Debug */,
+				F1BE8A0122F724F2009E50E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1BE8A0222F724F2009E50E5 /* Build configuration list for PBXNativeTarget "Cadastro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1BE8A0322F724F2009E50E5 /* Debug */,
+				F1BE8A0422F724F2009E50E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1BE8A0522F724F2009E50E5 /* Build configuration list for PBXNativeTarget "CadastroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1BE8A0622F724F2009E50E5 /* Debug */,
+				F1BE8A0722F724F2009E50E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1BE8A0822F724F2009E50E5 /* Build configuration list for PBXNativeTarget "CadastroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1BE8A0922F724F2009E50E5 /* Debug */,
+				F1BE8A0A22F724F2009E50E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1BE89D222F724F0009E50E5 /* Project object */;
+}
