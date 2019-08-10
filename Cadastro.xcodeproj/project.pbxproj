@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E0D7FEC4DD8000261EA7877 /* Pods_CadastroUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3936433B18684629EBB45331 /* Pods_CadastroUITests.framework */; };
+		4A00954EBE6242C1D2EA2A63 /* Pods_Cadastro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE2D3CA516C1169B056FBDE /* Pods_Cadastro.framework */; };
+		8DC337300C503426B016600E /* Pods_CadastroTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCC714AECA2FE12933F8AB4 /* Pods_CadastroTests.framework */; };
 		F1BE89DE22F724F0009E50E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BE89DD22F724F0009E50E5 /* AppDelegate.swift */; };
 		F1BE89E022F724F0009E50E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BE89DF22F724F0009E50E5 /* ViewController.swift */; };
 		F1BE89E322F724F0009E50E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1BE89E122F724F0009E50E5 /* Main.storyboard */; };
@@ -14,6 +17,8 @@
 		F1BE89E822F724F2009E50E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1BE89E622F724F2009E50E5 /* LaunchScreen.storyboard */; };
 		F1BE89F322F724F2009E50E5 /* CadastroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BE89F222F724F2009E50E5 /* CadastroTests.swift */; };
 		F1BE89FE22F724F2009E50E5 /* CadastroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BE89FD22F724F2009E50E5 /* CadastroUITests.swift */; };
+		F1BE8A0C22F72DB5009E50E5 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BE8A0B22F72DB5009E50E5 /* TableViewCell.swift */; };
+		F1BE8A0E22F73585009E50E5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BE8A0D22F73585009E50E5 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D99B088CC1B1E171AA760E0 /* Pods-Cadastro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cadastro.release.xcconfig"; path = "Target Support Files/Pods-Cadastro/Pods-Cadastro.release.xcconfig"; sourceTree = "<group>"; };
+		3936433B18684629EBB45331 /* Pods_CadastroUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CadastroUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E23DB42E1837AD668ACD630 /* Pods-CadastroUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CadastroUITests.debug.xcconfig"; path = "Target Support Files/Pods-CadastroUITests/Pods-CadastroUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6FCC714AECA2FE12933F8AB4 /* Pods_CadastroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CadastroTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A06A1A0EEE232A844679D60C /* Pods-CadastroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CadastroTests.release.xcconfig"; path = "Target Support Files/Pods-CadastroTests/Pods-CadastroTests.release.xcconfig"; sourceTree = "<group>"; };
+		ACE2D3CA516C1169B056FBDE /* Pods_Cadastro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cadastro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECE3F8BF015DAD446E0EED4 /* Pods-CadastroTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CadastroTests.debug.xcconfig"; path = "Target Support Files/Pods-CadastroTests/Pods-CadastroTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DA77DA8D821D295F4245F008 /* Pods-CadastroUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CadastroUITests.release.xcconfig"; path = "Target Support Files/Pods-CadastroUITests/Pods-CadastroUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F1BE89DA22F724F0009E50E5 /* Cadastro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cadastro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1BE89DD22F724F0009E50E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1BE89DF22F724F0009E50E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,9 @@
 		F1BE89F922F724F2009E50E5 /* CadastroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CadastroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1BE89FD22F724F2009E50E5 /* CadastroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroUITests.swift; sourceTree = "<group>"; };
 		F1BE89FF22F724F2009E50E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1BE8A0B22F72DB5009E50E5 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		F1BE8A0D22F73585009E50E5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F38E86150BA60A4DD891AAFE /* Pods-Cadastro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cadastro.debug.xcconfig"; path = "Target Support Files/Pods-Cadastro/Pods-Cadastro.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A00954EBE6242C1D2EA2A63 /* Pods_Cadastro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DC337300C503426B016600E /* Pods_CadastroTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +86,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E0D7FEC4DD8000261EA7877 /* Pods_CadastroUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		247A999E86685E70BB2BF9DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACE2D3CA516C1169B056FBDE /* Pods_Cadastro.framework */,
+				6FCC714AECA2FE12933F8AB4 /* Pods_CadastroTests.framework */,
+				3936433B18684629EBB45331 /* Pods_CadastroUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F9A62672D2E559A428C8110 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F38E86150BA60A4DD891AAFE /* Pods-Cadastro.debug.xcconfig */,
+				2D99B088CC1B1E171AA760E0 /* Pods-Cadastro.release.xcconfig */,
+				CECE3F8BF015DAD446E0EED4 /* Pods-CadastroTests.debug.xcconfig */,
+				A06A1A0EEE232A844679D60C /* Pods-CadastroTests.release.xcconfig */,
+				3E23DB42E1837AD668ACD630 /* Pods-CadastroUITests.debug.xcconfig */,
+				DA77DA8D821D295F4245F008 /* Pods-CadastroUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F1BE89D122F724F0009E50E5 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +124,8 @@
 				F1BE89F122F724F2009E50E5 /* CadastroTests */,
 				F1BE89FC22F724F2009E50E5 /* CadastroUITests */,
 				F1BE89DB22F724F0009E50E5 /* Products */,
+				6F9A62672D2E559A428C8110 /* Pods */,
+				247A999E86685E70BB2BF9DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +145,8 @@
 				F1BE89DD22F724F0009E50E5 /* AppDelegate.swift */,
 				F1BE89DF22F724F0009E50E5 /* ViewController.swift */,
 				F1BE89E122F724F0009E50E5 /* Main.storyboard */,
+				F1BE8A0D22F73585009E50E5 /* DetailViewController.swift */,
+				F1BE8A0B22F72DB5009E50E5 /* TableViewCell.swift */,
 				F1BE89E422F724F2009E50E5 /* Assets.xcassets */,
 				F1BE89E622F724F2009E50E5 /* LaunchScreen.storyboard */,
 				F1BE89E922F724F2009E50E5 /* Info.plist */,
@@ -132,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1BE8A0222F724F2009E50E5 /* Build configuration list for PBXNativeTarget "Cadastro" */;
 			buildPhases = (
+				75A1EA06659617F9645B6BC1 /* [CP] Check Pods Manifest.lock */,
 				F1BE89D622F724F0009E50E5 /* Sources */,
 				F1BE89D722F724F0009E50E5 /* Frameworks */,
 				F1BE89D822F724F0009E50E5 /* Resources */,
+				F263A9AB407D7406877B7EF7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1BE8A0522F724F2009E50E5 /* Build configuration list for PBXNativeTarget "CadastroTests" */;
 			buildPhases = (
+				E7A4480F07DF01FE158D3FE2 /* [CP] Check Pods Manifest.lock */,
 				F1BE89EA22F724F2009E50E5 /* Sources */,
 				F1BE89EB22F724F2009E50E5 /* Frameworks */,
 				F1BE89EC22F724F2009E50E5 /* Resources */,
@@ -167,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1BE8A0822F724F2009E50E5 /* Build configuration list for PBXNativeTarget "CadastroUITests" */;
 			buildPhases = (
+				7B5A2526F64DE0B09D32344E /* [CP] Check Pods Manifest.lock */,
 				F1BE89F522F724F2009E50E5 /* Sources */,
 				F1BE89F622F724F2009E50E5 /* Frameworks */,
 				F1BE89F722F724F2009E50E5 /* Resources */,
@@ -251,13 +302,101 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		75A1EA06659617F9645B6BC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cadastro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B5A2526F64DE0B09D32344E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CadastroUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7A4480F07DF01FE158D3FE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CadastroTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F263A9AB407D7406877B7EF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cadastro/Pods-Cadastro-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cadastro/Pods-Cadastro-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cadastro/Pods-Cadastro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F1BE89D622F724F0009E50E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1BE8A0C22F72DB5009E50E5 /* TableViewCell.swift in Sources */,
 				F1BE89E022F724F0009E50E5 /* ViewController.swift in Sources */,
 				F1BE89DE22F724F0009E50E5 /* AppDelegate.swift in Sources */,
+				F1BE8A0E22F73585009E50E5 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +569,7 @@
 		};
 		F1BE8A0322F724F2009E50E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F38E86150BA60A4DD891AAFE /* Pods-Cadastro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,12 +582,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.br.paulopereira.Cadastro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		F1BE8A0422F724F2009E50E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D99B088CC1B1E171AA760E0 /* Pods-Cadastro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -460,12 +601,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.br.paulopereira.Cadastro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		F1BE8A0622F724F2009E50E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CECE3F8BF015DAD446E0EED4 /* Pods-CadastroTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +629,7 @@
 		};
 		F1BE8A0722F724F2009E50E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A06A1A0EEE232A844679D60C /* Pods-CadastroTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +651,7 @@
 		};
 		F1BE8A0922F724F2009E50E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E23DB42E1837AD668ACD630 /* Pods-CadastroUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +672,7 @@
 		};
 		F1BE8A0A22F724F2009E50E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA77DA8D821D295F4245F008 /* Pods-CadastroUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
